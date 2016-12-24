@@ -11,7 +11,12 @@
     tools:context="com.example.newworld.calculationofelectricitycharges.MainActivity">
 
     <TextView
+        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="89dp"
+        android:id="@+id/textView" />
 </RelativeLayout>
