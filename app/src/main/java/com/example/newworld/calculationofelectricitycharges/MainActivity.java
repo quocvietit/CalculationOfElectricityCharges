@@ -2,7 +2,6 @@ package com.example.newworld.calculationofelectricitycharges;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Window;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+
 
     }
 }
